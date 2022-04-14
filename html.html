@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Generate</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="header">
+            <div class="h1">Генератор пароля</div>
+        </div>
+        <div class="choice">
+            <button id="pin">Create pin for card</button>
+            <button id="pass">Create password for email</button>
+            <button id="pas">Create password for social</button>
+        </div>
+        <div class="sett">
+            <p class="text">Настройки</p>
+            <div class="quant">
+                <p>Длинна пароля</p>
+                <input type="number" name="" id="numgen" max="50" min="4" placeholder="4">
+            </div>
+            <form class="tab">
+                <span> <input type="checkbox" id="number">
+                <label for="symbols">Цифры</label>
+            </span>
+            <span>    <input type="checkbox" id="upper">
+                <label for="symbols">Заглавные буквы</label>
+            </span>
+            <span>    
+                <input type="checkbox" id="lowwer">
+                <label for="symbols">Маленькие буквы</label>
+            </span>
+            <span> 
+                <input type="checkbox" id="specsymb">
+                <label for="symbols">Специальные символы</label>
+            </span>
+            </form>
+            <div class="div">
+                <button id="send">Сгенерировать</button>
+            </div>
+            <div class="pas"><p id="pasing"></p></div>
+        </div>
+    </div>
+    <script src="sricpt/js.js"></script>
+</body>
+</html>

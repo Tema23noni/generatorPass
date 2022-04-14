@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #00BFFF;
+}
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    
+    height: 650px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 28px;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.choice button{
+    border: 1px solid #fff;
+    background: #00BFFF ;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.sett{
+    text-align: center;
+}
+.text{
+    padding: 20px 0;
+    font-size: 20px;
+    align-items: center;
+}
+.quant{
+    display: flex;
+    align-items: center;
+    
+}
+.quant p{
+    padding: 0 30px;
+    font-size: 20px;
+}
+.quant input{
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+#numGen:placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+
+.tab span{
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    
+
+}
+#symbols{
+    margin: 0 10px 0 0 ;
+    border-radius: 50%;
+}
+.div{
+    position: relative;
+    margin: 50px 0 0 0;
+
+}
+#send{
+    border-radius: 30px;
+    background-color: #00BFFF;
+    border: 2px solid #fff;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: #000 0px 10px 0 0 ;
+}
+.pas{
+    margin: 50px 0;
+    font-size: 20px;
+}
